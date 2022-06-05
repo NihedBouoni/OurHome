@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+		/>
+		<!--social media icons-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="MyHome.css" />
+		<!--font awsome CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<title>My Home | Our Home</title>
+	</head>
+	<body>
+		<!--========================================================================
+        # nav
+        ========================================================================-->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="HomeAutomation.html"
+				><img src="img\Our Home.svg"
+			/></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto mx-auto">
+					
+					<li class="nav-item">
+						<a class="nav-link" href="MyHome.html">My Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Support.html">Support</a>
+					</li>
+				</ul>
+				<div class="search-box">
+					<div class="container-2">
+						<span class="icon"><i class="fa fa-search fa-lg"></i></span>
+						<input type="search" id="search" placeholder="Search..." />
+					</div>
+				</div>
+				<div class="cart-box">
+					<button class="cart-btn">
+						<img class="cart" src="img/cart.svg" />
+					</button>
+				</div>
+			</div>
+			<div id="dropdown" class="profile">
+				<button id="dropbtn" class="profile-pic-btn">
+					<img class="profile-pic" src="img/profile-pic.jpg" />
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Profile</a>
+					<a href="#">My Devices</a>
+					<a href="#">Manage Home</a>
+					<a href="#">Log Out</a>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="devices-container-all col-3">
+						<div class="devices-container">
+							<h3>Devices</h3>
+							<hr />
+							<h4>My Home</h4>
+							<ul class="main-ul">
+								<li>
+									<img src="img\first-floor.jpg" />First Floor
+									<ul class="sub-ul">
+										<li><img src="img\bedroom.jpg" />Bedroom</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="My-Home col-9">
+						<h2>My home</h2>
+						<div class="container">
+							<div id="devices" class="row">
+								<div class="devices-buttons">
+									<a href="#"
+										><button class="device-btn">
+											<img
+												class="device-icon"
+												id="bulb"
+												src="img\bulb.svg"
+											/></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img
+												class="device-icon"
+												id="temp"
+												src="img\temp.svg"
+											/></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img
+												class="device-icon"
+												id="lock"
+												src="img\lock.svg"
+											/></button
+									></a>
+
+									<a href="#"
+										><button class="device-btn">
+											<img class="device-icon" src="img\water.svg" /></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img class="device-icon" src="img\tv.svg" /></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img class="device-icon" src="img\camera.svg" /></button
+									></a>
+
+									<a href="#"
+										><button class="device-btn">
+											<img class="device-icon" src="img\car.svg" /></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img class="device-icon" src="img\alarm.svg" /></button
+									></a>
+									<a href="#"
+										><button class="device-btn">
+											<img
+												class="device-icon"
+												id="door"
+												src="img\door.svg"
+											/></button
+									></a>
+								</div>
+							</div>
+						</div>
+						<h3>First Floor</h3>
+						<h4>Bedroom</h4>
+						<div class="container">
+							<div id="devices" class="row">
+								<div class="devices-buttons">
+									<ul>
+										<li>
+											<div class="floor-device">
+												<a href="bulb.html"
+													><button class="device-btn">
+														<img
+															class="device-icon"
+															id="bulb"
+															src="img\bulb.svg"
+														/></button
+												></a>
+											</div>
+											<div class="floor-titles">
+												<h5>Bedroom Lights</h5>
+												<h6>state : <span>Active</span></h6>
+											</div>
+										</li>
+										<li>
+											<div class="floor-device">
+												<a href="#"
+													><button class="device-btn">
+														<img
+															class="device-icon"
+															id="temp"
+															src="img\temp.svg"
+														/></button
+												></a>
+											</div>
+											<div class="floor-titles">
+												<h5>Bedroom AC</h5>
+												<h6>state : <span>Inactive</span></h6>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer-clean">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-sm-4 col-md-3 item">
+						<h3>Our Home</h3>
+						<ul>
+							<li><a href="#">our story</a></li>
+							<li><a href="#">how it works</a></li>
+							<li>
+								<a href="#"
+									>what you need<br />
+									to know</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-md-3 item">
+						<h3>Store</h3>
+						<ul>
+							<li><a href="#">products</a></li>
+							<li><a href="#">installation</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-md-3 item">
+						<h3>Company</h3>
+						<ul>
+							<li><a href="#">Employee</a></li>
+							<li><a href="#">Employee success</a></li>
+							<li><a href="#">Benefits</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 item social">
+						<a href="#"><i class="icon ion-social-facebook"></i></a
+						><a href="#"><i class="icon ion-social-twitter"></i></a
+						><a href="#"><i class="icon ion-social-snapchat"></i></a
+						><a href="#"><i class="icon ion-social-instagram"></i></a>
+						<p class="copyright">Follow Us On Social Media</p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p class="copyright2020">
+					Copyright © 2020 <a href="#">Our Home</a> - All rights reserved
+				</p>
+				<p class="privacy">Privacy and Cookie Notice | Terms and Conditions</p>
+			</div>
+		</footer>
+
+		<script src="MyHome.js"></script>
+		<!-- Bootstrap js -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+		<script
+			src="https://kit.fontawesome.com/628c8d2499.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
